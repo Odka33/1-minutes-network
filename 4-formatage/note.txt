@@ -1,0 +1,16 @@
+# 4-traitement
+
+## Trier les données cote à cote
+
+'''
+cat ip_dst.txt | sort > ../4-traitement/ip_dst.txt
+
+'''
+
+Nous avons maintenant une liste trier.
+
+A partir de se résultat nous pouvons calculer le nombre d'occurence des IP dans les fichier.
+
+cat ip_dst.txt | uniq -c 
+
+

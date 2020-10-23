@@ -1,0 +1,9 @@
+# 3-formatage
+
+## Enlever les caractères autour de l'information importante.
+
+'''
+cat ip_dst.txt | cut -d'"' -f4
+'''
+
+L'information est bien plus lisible
